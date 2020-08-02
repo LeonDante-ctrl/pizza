@@ -32,3 +32,25 @@ $(document).ready(function(){
  }else{
      pizzasizeprice=0;
  }
+
+ var total= crustprice+ pizzasizeprice + (topping.length*200);
+
+  $("#outputcrust").html(crust);
+  $("#outputtopping").html(topping);
+  $("#outputsize").html(size);
+  console.log(crustprice);
+         console.log(pizzasizeprice);
+         console.log(topping);
+         console.log(total);
+
+     if(quantity !=""){
+         var quantityTotal = total* quantity;
+         console.log(total);
+         $("#outputtotal").html(quantityTotal);
+     }
+
+
+
+         event.preventDefault();
+     })
+ })
