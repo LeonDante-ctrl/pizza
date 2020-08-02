@@ -113,3 +113,18 @@ h5{
     font-size:20px;
     font-family: 'Butcherman', cursive;
 }
+.blue {
+  color: black;
+}
+
+  .div{
+		  font-size: 1rem;
+      height:90vh;
+      line-height: 90vh;
+	    color: #fcedd8;
+	    background: #d52e3f;
+	   	font-family: 'Niconne', cursive;
+	    font-weight: 700;
+}
+
+}
